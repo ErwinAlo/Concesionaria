@@ -4,12 +4,13 @@
 
        public List<Automovil> lista;
        public int LimiteAuto;
-       public int NumActual= 0;
+       public int NumActual;
 
        public concesionaria(int LimiteAuto){
 
           lista = new List<Automovil>();
           this.LimiteAuto = LimiteAuto;
+          this.NumActual = 0;
        }
 
        public void AgregarAuto( Automovil Auto){

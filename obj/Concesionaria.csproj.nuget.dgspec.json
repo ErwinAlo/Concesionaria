@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ing.computacion\\cuarto semestre\\Lenguajes4\\git\\git\\Git\\Concesionaria\\Concesionaria.csproj": {}
+    "D:\\ing.computacion\\cuarto semestre\\Lenguajes4\\git\\git\\Git\\Concesionaria\\Concesionaria\\Concesionaria.csproj": {}
   },
   "projects": {
-    "D:\\ing.computacion\\cuarto semestre\\Lenguajes4\\git\\git\\Git\\Concesionaria\\Concesionaria.csproj": {
+    "D:\\ing.computacion\\cuarto semestre\\Lenguajes4\\git\\git\\Git\\Concesionaria\\Concesionaria\\Concesionaria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ing.computacion\\cuarto semestre\\Lenguajes4\\git\\git\\Git\\Concesionaria\\Concesionaria.csproj",
+        "projectUniqueName": "D:\\ing.computacion\\cuarto semestre\\Lenguajes4\\git\\git\\Git\\Concesionaria\\Concesionaria\\Concesionaria.csproj",
         "projectName": "Concesionaria",
-        "projectPath": "D:\\ing.computacion\\cuarto semestre\\Lenguajes4\\git\\git\\Git\\Concesionaria\\Concesionaria.csproj",
+        "projectPath": "D:\\ing.computacion\\cuarto semestre\\Lenguajes4\\git\\git\\Git\\Concesionaria\\Concesionaria\\Concesionaria.csproj",
         "packagesPath": "C:\\Users\\EALO4\\.nuget\\packages\\",
-        "outputPath": "D:\\ing.computacion\\cuarto semestre\\Lenguajes4\\git\\git\\Git\\Concesionaria\\obj\\",
+        "outputPath": "D:\\ing.computacion\\cuarto semestre\\Lenguajes4\\git\\git\\Git\\Concesionaria\\Concesionaria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EALO4\\AppData\\Roaming\\NuGet\\NuGet.Config"

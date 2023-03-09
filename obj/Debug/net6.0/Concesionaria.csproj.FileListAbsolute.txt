@@ -1,0 +1,15 @@
+D:\ing.computacion\cuarto semestre\Lenguajes4\git\git\Git\Concesionaria\Concesionaria\bin\Debug\net6.0\Concesionaria.exe
+D:\ing.computacion\cuarto semestre\Lenguajes4\git\git\Git\Concesionaria\Concesionaria\bin\Debug\net6.0\Concesionaria.deps.json
+D:\ing.computacion\cuarto semestre\Lenguajes4\git\git\Git\Concesionaria\Concesionaria\bin\Debug\net6.0\Concesionaria.runtimeconfig.json
+D:\ing.computacion\cuarto semestre\Lenguajes4\git\git\Git\Concesionaria\Concesionaria\bin\Debug\net6.0\Concesionaria.dll
+D:\ing.computacion\cuarto semestre\Lenguajes4\git\git\Git\Concesionaria\Concesionaria\bin\Debug\net6.0\Concesionaria.pdb
+D:\ing.computacion\cuarto semestre\Lenguajes4\git\git\Git\Concesionaria\Concesionaria\obj\Debug\net6.0\Concesionaria.csproj.AssemblyReference.cache
+D:\ing.computacion\cuarto semestre\Lenguajes4\git\git\Git\Concesionaria\Concesionaria\obj\Debug\net6.0\Concesionaria.GeneratedMSBuildEditorConfig.editorconfig
+D:\ing.computacion\cuarto semestre\Lenguajes4\git\git\Git\Concesionaria\Concesionaria\obj\Debug\net6.0\Concesionaria.AssemblyInfoInputs.cache
+D:\ing.computacion\cuarto semestre\Lenguajes4\git\git\Git\Concesionaria\Concesionaria\obj\Debug\net6.0\Concesionaria.AssemblyInfo.cs
+D:\ing.computacion\cuarto semestre\Lenguajes4\git\git\Git\Concesionaria\Concesionaria\obj\Debug\net6.0\Concesionaria.csproj.CoreCompileInputs.cache
+D:\ing.computacion\cuarto semestre\Lenguajes4\git\git\Git\Concesionaria\Concesionaria\obj\Debug\net6.0\Concesionaria.dll
+D:\ing.computacion\cuarto semestre\Lenguajes4\git\git\Git\Concesionaria\Concesionaria\obj\Debug\net6.0\refint\Concesionaria.dll
+D:\ing.computacion\cuarto semestre\Lenguajes4\git\git\Git\Concesionaria\Concesionaria\obj\Debug\net6.0\Concesionaria.pdb
+D:\ing.computacion\cuarto semestre\Lenguajes4\git\git\Git\Concesionaria\Concesionaria\obj\Debug\net6.0\Concesionaria.genruntimeconfig.cache
+D:\ing.computacion\cuarto semestre\Lenguajes4\git\git\Git\Concesionaria\Concesionaria\obj\Debug\net6.0\ref\Concesionaria.dll

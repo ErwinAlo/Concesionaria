@@ -15,69 +15,59 @@
 
        public void AgregarAuto( Automovil Auto){
 
-           if( NumActual < LimiteAuto ){
+           if( Auto != null && NumActual != LimiteAuto ){
+            Automovil? autoencontrado = lista.Find((b)=>b.Placa==Auto.Placa);
 
-              lista.Add(Auto);
-              NumActual ++;
+              if(autoencontrado == null){
+                        lista.Add(Auto);
+                        NumActual ++;
+              }
               
-           }else{
-
-              Console.WriteLine(" No hay espacio ");
-
            }
 
        }
-       public void MostrarAuto(Automovil Auto){
-         
-            if( Auto != null ){
-
-                foreach(Automovil item in lista){
-
-                      if( item == Auto ){
-                            Console.WriteLine(item);
-                            return;
-                      }
-                   
-                }
-                Console.WriteLine("No se encontro el auto");
+       public void MostrarAuto(string Placa){
+            
+            Automovil? Autoencontrado =lista.Find((auto)=>auto.Placa==Placa);
+            if(Autoencontrado!=null){
+               Console.WriteLine(NumActual.ToString());
 
             }
+       }
+
+       public void EliminarAuto(String Placa){
+
+         if( Placa != " "&& NumActual != 0 ){
+
+                Automovil? AutoEncontrado = lista.Find((Auto)=>Auto.Placa==Placa);
+                if(AutoEncontrado!= null){
+                   lista.Remove(AutoEncontrado);
+                            NumActual--;  
+                            
+                 }
+                           
+         }
 
        }
-       public void EliminarAuto(Automovil Auto){
+   
 
-         if( NumActual != 0 ){
-
-                foreach(Automovil item in lista){
-
-                      if(item == Auto){
-                            lista.Remove(item);
-                            NumActual --;  
-                            return;  
-                      }
-
-                }
-
-            }else{
-               Console.WriteLine("Esta vacio");
-            }
-
-       }
+       
        public void MostrarAutos(Automovil Auto){
 
          foreach(Automovil item in lista){
-            Console.WriteLine(item);
+            Console.WriteLine(Auto);
          }
 
        }
+
        public void VaciarConcesionaria(Automovil Auto){
 
-            foreach(Automovil item in lista){
+            
             lista.Clear();
             Console.WriteLine("No hay autos");
 
-         }
+      }
 
-       }
+   }  
 
-      } 
+      

@@ -16,7 +16,7 @@
        public void AgregarAuto( Automovil Auto){
 
            if( Auto != null && NumActual != LimiteAuto ){
-            Automovil? autoencontrado = lista.Find((b)=>b.Placa==Auto.Placa);
+            Automovil? autoencontrado = lista.Find((b) => b.Placa == Auto.Placa);
 
               if(autoencontrado == null){
                         lista.Add(Auto);
@@ -26,16 +26,16 @@
            }
 
        }
-       public void MostrarAuto(string Placa){
+       public void MostrarAuto(String? Placa){
             
-            Automovil? Autoencontrado =lista.Find((auto)=>auto.Placa==Placa);
-            if(Autoencontrado!=null){
-               Console.WriteLine(NumActual.ToString());
+            Automovil? Autoencontrado = lista.Find((auto)=>auto.Placa==Placa);
+            if(Autoencontrado !=  null){
+               Console.WriteLine( Autoencontrado.ToString() );
 
             }
        }
 
-       public void EliminarAuto(String Placa){
+       public void EliminarAuto(String? Placa){
 
          if( Placa != " "&& NumActual != 0 ){
 
@@ -50,21 +50,20 @@
 
        }
    
-
        
-       public void MostrarAutos(Automovil Auto){
+       public void MostrarAutos(){
 
          foreach(Automovil item in lista){
-            Console.WriteLine(Auto);
+            Console.WriteLine(item);
          }
 
        }
 
-       public void VaciarConcesionaria(Automovil Auto){
+       public void VaciarConcesionaria( ){
 
             
             lista.Clear();
-            Console.WriteLine("No hay autos");
+            Console.WriteLine("Concesionaria Vacia");
 
       }
 
